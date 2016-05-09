@@ -11,6 +11,10 @@ fieldset {
 label {
   font-size: 13px;
   font-weight: bold;
+  outline: none;
+  &:focus{
+     outline: none;
+  }
 }
 
 // input[type="text"],
